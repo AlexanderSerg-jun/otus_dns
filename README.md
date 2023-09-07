@@ -7,8 +7,8 @@
 # Работа со стендом и настройка DNS
 Для выполнения данного ДЗ, необходимо скачать стенд и запустить его.
 ```
-git clone https://github.com/Dmitriy-Iv/Otus-Pr-linux-HW23.git
-cd Otus-Pr-linux-HW23
+git clone https://github.com/AlexanderSerg-jun/otus_dns.git
+cd otus_dns
 vagrant up
 ```
 В результате развернётся стенд, в котором 4 виртуальных сервера. Два из них - это name servers (DNS), а два - это клиенты. В качестве DNS сервера у нас будет выступать Bind.
